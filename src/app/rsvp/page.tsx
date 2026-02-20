@@ -35,13 +35,6 @@ export default function RSVPPage() {
 
   const formContent = (
     <div className="w-full max-w-md">
-      <Link
-        href="/"
-        className="inline-block mb-10 font-mono text-[11px] text-white/20 tracking-widest hover:text-white/50 transition-colors fade-in"
-      >
-        <span className="text-[#e16720]/30">$</span> cd ..
-      </Link>
-
       <div className="glass-card p-8 sm:p-10 fade-in fade-in-delay-1">
         <p className="font-mono text-[10px] text-[#e16720]/30 tracking-widest mb-6">
           // register
@@ -149,7 +142,7 @@ export default function RSVPPage() {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale"
+              className="absolute inset-0 w-full h-full object-cover opacity-60"
             >
               <source src="/baby-track-video (1).mp4" type="video/mp4" />
             </video>
@@ -160,7 +153,7 @@ export default function RSVPPage() {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale scale-x-[-1]"
+              className="absolute inset-0 w-full h-full object-cover opacity-60 scale-x-[-1]"
             >
               <source src="/baby-track-video (1).mp4" type="video/mp4" />
             </video>
@@ -183,7 +176,7 @@ export default function RSVPPage() {
             loop
             muted
             playsInline
-            className="absolute inset-0 w-full h-full object-cover grayscale"
+            className="absolute inset-0 w-full h-full object-cover"
           >
             <source src="/baby-track-video (1).mp4" type="video/mp4" />
           </video>

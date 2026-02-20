@@ -118,7 +118,7 @@ export default function RSVPPage() {
         className="scattered-word pixel-text text-[clamp(0.7rem,1.5vw,1rem)] text-white/10 fade-in fade-in-delay-4"
         style={{ bottom: "8%", right: "5%" }}
       >
-        02.27
+        03.01
       </span>
       <span
         className="scattered-word pixel-text text-[clamp(0.7rem,1.5vw,1rem)] text-red-500/20 fade-in fade-in-delay-5"
@@ -158,7 +158,7 @@ export default function RSVPPage() {
                   signal received.
                 </p>
                 <p className="pixel-text text-xs text-white/30 mb-8">
-                  you&apos;re locked in for february 27th.
+                  you&apos;re locked in for march 1st.
                 </p>
                 <Link
                   href="/"
@@ -228,7 +228,7 @@ export default function RSVPPage() {
           </div>
 
           <p className="pixel-text text-center text-[10px] text-white/10 tracking-[0.15em] mt-8 fade-in fade-in-delay-7">
-            friday, february 27th · 6:00 pm · 12 survival bags
+            sunday, march 1st · 4:00–5:00 pm · 12 survival bags
           </p>
         </div>
       </div>

@@ -5,23 +5,31 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="relative w-full h-screen overflow-hidden bg-black select-none flex">
-      {/* ── Left half: Full-bleed GIF (are.gif has the text baked in) ── */}
+      {/* ── Left half: Full-bleed looping MP4 ── */}
       <div className="hidden lg:block lg:w-1/2 h-full relative overflow-hidden">
-        <img
-          src="/are.gif"
-          alt=""
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        >
+          <source src="/catacomb_a_slowmotion_rotating_camera_view_of_a_3D-scanned_su_58813c99-8e7e-4d9e-b389-91dede7281c9_2.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/80" />
       </div>
 
-      {/* ── Mobile: GIF as background ── */}
+      {/* ── Mobile: MP4 as background ── */}
       <div className="lg:hidden absolute inset-0">
-        <img
-          src="/are.gif"
-          alt=""
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-40"
-        />
+        >
+          <source src="/catacomb_a_slowmotion_rotating_camera_view_of_a_3D-scanned_su_58813c99-8e7e-4d9e-b389-91dede7281c9_2.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
@@ -74,10 +82,10 @@ export default function Home() {
 
           <div className="pixel-text space-y-4 mb-12">
             <p className="text-[clamp(1.4rem,3.5vw,2.2rem)] text-white/90 font-bold">
-              friday, february 27th
+              sunday, march 1st
             </p>
             <p className="text-[clamp(1rem,2.5vw,1.6rem)] text-white/50">
-              6:00 pm
+              4:00 – 5:00 pm
             </p>
           </div>
 

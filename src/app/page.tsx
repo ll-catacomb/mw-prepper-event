@@ -67,9 +67,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/70" />
 
           {/* Scroll indicator */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 fade-in fade-in-delay-3">
-            <p className="font-mono text-[10px] text-white/30 tracking-widest">scroll</p>
-            <span className="block w-px h-8 bg-white/20 animate-bounce" />
+          <div className="absolute bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 animate-bounce fade-in fade-in-delay-3">
+            <p className="font-mono text-sm text-white/40 tracking-widest">scroll</p>
+            <span className="block w-px h-10 bg-white/30" />
           </div>
         </div>
 

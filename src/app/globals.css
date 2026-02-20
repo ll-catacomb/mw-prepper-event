@@ -83,49 +83,6 @@ body {
   animation: drift-slow 20s ease-in-out infinite;
 }
 
-/* ── Geometric shapes ── */
-.geo-rect {
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  position: absolute;
-}
-
-.geo-circle {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  position: absolute;
-}
-
-.geo-circle-filled {
-  background: rgba(200, 30, 30, 0.08);
-  border-radius: 50%;
-  position: absolute;
-}
-
-.geo-rect-red {
-  border: 1px solid rgba(200, 30, 30, 0.25);
-  position: absolute;
-}
-
-.geo-circle-red {
-  border: 1px solid rgba(200, 30, 30, 0.2);
-  border-radius: 50%;
-  position: absolute;
-}
-
-/* ── Dashed curved connector lines (via SVG in components) ── */
-.dashed-line {
-  stroke: rgba(255, 255, 255, 0.15);
-  stroke-width: 1;
-  stroke-dasharray: 6 4;
-  fill: none;
-}
-
-.dashed-line-red {
-  stroke: rgba(200, 30, 30, 0.15);
-  stroke-width: 1;
-  stroke-dasharray: 6 4;
-  fill: none;
-}
 
 /* ── Pixel / bitmap text style ── */
 .pixel-text {
@@ -159,7 +116,7 @@ body {
 }
 
 .mono-input:focus {
-  border-color: rgba(200, 30, 30, 0.6);
+  border-color: rgba(225, 103, 32, 0.6);
   outline: none;
 }
 
@@ -174,9 +131,9 @@ body {
 }
 
 .mono-btn:hover {
-  background: rgba(200, 30, 30, 0.08);
-  border-color: rgba(200, 30, 30, 0.4);
-  color: #c81e1e;
+  background: rgba(225, 103, 32, 0.08);
+  border-color: rgba(225, 103, 32, 0.4);
+  color: #e16720;
 }
 
 /* ── Fade in stagger ── */
@@ -198,10 +155,10 @@ body {
 .fade-in-delay-6 { animation-delay: 2.3s; }
 .fade-in-delay-7 { animation-delay: 2.7s; }
 
-/* ── Pulse opacity for geometric elements ── */
+/* ── Pulse opacity for contour elements ── */
 @keyframes pulse-opacity {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.45; }
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
 }
 
 .pulse-opacity {

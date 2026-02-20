@@ -151,7 +151,7 @@ export default function RSVPPage() {
               playsInline
               className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale"
             >
-              <source src="/baby-track-processed.mp4" type="video/mp4" />
+              <source src="/baby-track-video (1).mp4" type="video/mp4" />
             </video>
           </div>
           <div className="flex-1 relative overflow-hidden">
@@ -162,7 +162,7 @@ export default function RSVPPage() {
               playsInline
               className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale scale-x-[-1]"
             >
-              <source src="/baby-track-processed.mp4" type="video/mp4" />
+              <source src="/baby-track-video (1).mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function RSVPPage() {
             playsInline
             className="absolute inset-0 w-full h-full object-cover grayscale"
           >
-            <source src="/baby-track-processed.mp4" type="video/mp4" />
+            <source src="/baby-track-video (1).mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/70" />
 
